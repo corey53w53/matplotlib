@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import random
 
-l1=[a for a in range(50)]
+l1=[a for a in range(100000)]
 l2=l1.copy()
 random.shuffle(l2)
 print(l2)
