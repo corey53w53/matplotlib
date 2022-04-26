@@ -1,14 +1,16 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import random
 
-a=np.sort([1,3,2,4,6,5])
+l1=[a for a in range(50)]
+l2=l1.copy()
+random.shuffle(l2)
+print(l2)
 
-print(type(a))
 x_values=[]
 y_values=[]
-for num in range(1,50):
-    x_values.append(num)
-    y_values.append(num**2)
-
+for c in range(len(l1)):
+    x_values.append(l1[c])
+    y_values.append(l2[c])
 plt.plot(x_values,y_values)
 plt.show()
