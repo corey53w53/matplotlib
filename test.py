@@ -11,4 +11,4 @@ for num in range(1,50):
     y_values.append(num**2)
 
 plt.plot(x_values,y_values)
-# plt.show()
+plt.show()
