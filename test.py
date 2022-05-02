@@ -13,7 +13,7 @@ import random
 # plt.title("Simple Plot")
 # plt.legend()
 # plt.show()
-np.random.seed(19680801)  # seed the random number generator.
+np.random.seed(2)  # seed the random number generator.
 data = {'a': np.arange(50),
         'c': np.random.randint(0, 50, 50),
         'd': np.random.randn(50)}
