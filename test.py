@@ -25,3 +25,5 @@ ax.scatter('a', 'b', c='c', s='d', data=data)
 ax.set_xlabel('entry a')
 ax.set_ylabel('entry b')
 plt.show()
+for x in np.random.randint(0, 50, 10):
+    print(x)
